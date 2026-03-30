@@ -6,7 +6,7 @@ This repository contains the analysis code accompanying:
 
 > *Human to Mouse Cross-Species Transfer Learning for Electrophysiology-to-Transcriptomics Mapping in Cortical GABAergic Interneurons*
 
-We replicate and extend the electrophysiology-to-transcriptomics framework of [Gouwens et al. (2020)](https://doi.org/10.1016/j.cell.2020.09.057) using publicly available Allen Institute Patch-seq datasets from mouse and human cortex. After reproducing major inhibitory subclass separations with engineered IPFX features and a sparse-PCA + random forest baseline, we develop an attention-based BiLSTM that operates directly on the 12-family IPFX sequence representation and evaluate cross-species transfer from mouse to human for an aligned 4-class inhibitory subclass task.
+We replicate and extend the electrophysiology-to-transcriptomics framework of [Gouwens et al. (2020)](https://doi.org/10.1016/j.cell.2020.09.057) using publicly available Allen Institute Patch-seq datasets from mouse and human cortex. After reproducing major inhibitory subclass separations with engineered IPFX features and a sparse-PCA + random forest baseline, we develop an attention-based BiLSTM that operates directly on the 12-family IPFX sequence representation and evaluate cross-species transfer from mouse to human for an aligned 4-class inhibitory subclass task. The article is currently up at https://arxiv.org/abs/2603.11000 and submitted to MDPI Data.
 
 ---
 
